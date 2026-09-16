@@ -1,0 +1,5 @@
+# Copy to .dev.vars and fill in. NEVER commit .dev.vars.
+# ServiceNow credentials your MCP server uses to talk to your instance.
+SN_INSTANCE=https://dev000000.service-now.com
+SN_USERNAME=admin
+SN_PASSWORD=change-me

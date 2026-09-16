@@ -1,0 +1,26 @@
+{
+	// Cloudflare Workers config for the ServiceNow MCP example server.
+	// Docs: https://developers.cloudflare.com/workers/wrangler/configuration/
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "sn-mcp-example",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-02-01",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"dev": {
+		"port": 8787
+	},
+	"observability": {
+		"enabled": true
+	},
+	// Secrets (never put these here — `wrangler secret put` or .dev.vars):
+	//   SN_INSTANCE  e.g. https://dev000000.service-now.com
+	//   SN_USERNAME
+	//   SN_PASSWORD
+	"vars": {
+		// Any permissive CORS config works; this just makes browser-based MCP
+		// inspectors happy during demos.
+		"MCP_ALLOWED_ORIGINS": "*"
+	}
+}
