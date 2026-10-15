@@ -10,8 +10,8 @@ Part of the *"AI Engineer 3 Ways"* talk — this repo is **The MCP Way**:
 | Way | What the AI gets | Repo |
 |-----|------------------|------|
 | **The MCP Way** | Curated, typed, documented tools | _this repo_ |
-| **The Table API Way** | Raw REST + a great `AGENTS.md` | _(separate repo)_ |
-| **The CLI Way** | A lifecycle-driven CLI (`sn`) | [sndev.io](https://sndev.io) |
+| **The Skills Way** | Raw REST + a great `AGENTS.md` + skill | [sn-api-example](https://github.com/SxMShaDoW/sn-api-example) |
+| **The CLI Way** | A lifecycle-driven CLI (`sndev`) | [sndev.io](https://sndev.io) |
 
 ## Quick start (local)
 
