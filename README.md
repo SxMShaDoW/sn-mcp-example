@@ -24,8 +24,8 @@ bun run dev        # http://localhost:8787
 Test it with the [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector):
 
 ```bash
-npx @modelcontextprotocol/inspector
-# Transport: Streamable HTTP  →  URL: http://localhost:8787/mcp
+npx @modelcontextprotocol/inspector --web --config mcp.json --server servicenow-local
+# Same as: Transport Streamable HTTP  →  URL: http://localhost:8787/mcp
 ```
 
 ### Gotcha: quoting basic-auth values in `.dev.vars`

@@ -1,0 +1,8 @@
+{
+	"mcpServers": {
+		"servicenow-local": {
+			"type": "streamable-http",
+			"url": "http://localhost:8787/mcp"
+		}
+	}
+}
